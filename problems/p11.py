@@ -28,7 +28,7 @@ for rnds in range(10000):
                 objs[true_throw[i]].append(new)
             else:
                 objs[false_throw[i]].append(new)
-            objs[i] = []
+        objs[i] = []
 
 monkey_count.sort()
 print(monkey_count[-2] * monkey_count[-1])
